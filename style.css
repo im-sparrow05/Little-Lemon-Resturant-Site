@@ -654,6 +654,7 @@ button:hover{
 .developer .fa-heart{
     font-size: 16px;
     padding-left: 8px;
+    letter-spacing: 5px;
 }
 @media(max-width:668px){
     .fa-brands{
