@@ -7,6 +7,8 @@
     width: 100%;
     display: inline-block;
     background-color: rgba(17, 11, 14, 0.84);
+    position: fixed;
+    overflow: hidden;
 }
 header ul{
     float: right;
@@ -440,6 +442,15 @@ padding-bottom: 40px;
         padding: 50px 20px;
     }
 }
+@media(max-width:800px){
+    #review{
+        margin: 40px 0px;
+    }
+    .review_1{
+        padding: 30px 0;
+        font-size: 16px;
+    }
+}
 
 
 /* review_page end */
@@ -552,14 +563,37 @@ button:hover{
 }
 @media(max-width:668px){
     .title_1{
-        padding: 10px 10px;
+        padding: 10px 5px;
     }
     .form_box{
         grid-template-columns: repeat(1,1fr);
+        margin: 5px;
     }
     .contact_title {
         padding: 0 20px;
         font-size: 16px;
+    }
+    .contact_title p{
+        font-size: 14px;
+    }
+    .form{
+        width: 100%;
+        overflow: hidden;
+    }
+    .name_email{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    
+    }
+    .loco{
+        font-size: 15px;
+    }
+    .fa-location-dot , .fa-clock{
+        font-size: 15px;
+        padding: 5px 5px;
+        color: #ffb03b;
+        
     }
 }
 /* Contact_us end */
@@ -616,6 +650,10 @@ button:hover{
 }
 .developer span{
     color: #ffa012;
+}
+.developer .fa-heart{
+    font-size: 16px;
+    padding-left: 8px;
 }
 @media(max-width:668px){
     .fa-brands{
