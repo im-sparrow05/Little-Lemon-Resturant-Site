@@ -93,6 +93,10 @@ header #icon{
     header ul.show{
         left: 0;
     }
+    .header{
+        position: absolute;
+        overflow: hidden;
+    }
 }
 
 /* home page */
